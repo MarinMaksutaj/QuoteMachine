@@ -4,10 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width , initial-scale=1">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
-    <script type="text/javascript" src ="node_modules\jquery\dist\jquery.js">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src ="jquery.js">
+
     </script>
-    <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js">
+    <script type="text/javascript" src="bootstrap.js">
 
     </script>
     <title>Quote Machine</title>
@@ -16,8 +18,8 @@
     <div class="container parent">
       <div class="navbar navbar-default">
         <ul class="navbar-nav navbar-left nav">
-          <li><a href="#">Dark Mode</a></li>
-          <li><a href="#">Light Mode</a></li>
+          <li><a href="#" id="dark" class="nav-item">Dark Mode</a></li>
+          <li><a href="#" id="light" class="active nav-item">Light Mode</a></li>
         </ul>
       </div>
       <div class="row child">
@@ -27,28 +29,27 @@
    <div class="panel-heading">
      <h4 class="panel-title">
        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-       Collapsible Group 1</a>
+       Social links</a>
      </h4>
    </div>
-   <div id="collapse1" class="panel-collapse collapse">
-     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-     commodo consequat.</div>
+   <div id="collapse1" class="panel-collapse collapse in">
+     <div class="panel-body"><p>Want to tweet a quote?</p>
+       <a class="fa fa-twitter" target="_blank"
+ href="https://twitter.com/intent/tweet?text=Hello%20world"
+ data-size="large">
+Tweet</a>
+     </div>
    </div>
  </div>
  <div class="panel panel-default">
 <div class="panel-heading">
 <h4 class="panel-title">
 <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-Collapsible Group 1</a>
+About me</a>
 </h4>
 </div>
-<div id="collapse2" class="panel-collapse collapse in">
-<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.</div>
+<div id="collapse2" class="panel-collapse collapse">
+<div class="panel-body"><p class="text-center">I'm a full stack web developer and have a good understanding in web based technologies either front or back end<p></div>
 </div>
 </div>
         </aside>
@@ -62,16 +63,19 @@ commodo consequat.</div>
 
         <div class="text-center">
           <div class="btn-group">
-          <a href="#" class="btn btn-default">Previous</a>
-          <a href="#" class="btn btn-default">Next</a>
+          <a href="#" class="btn btn-default" id="generate">Generate Quote</a>
         </div>
         </div>
         <br>
         <div class="alert alert-success">
-          <p class="text-center">THere goes your quote</p>
+
         </div>
       </div>
       </div>
+      <footer class="foot navbar"><p class="text-center">Copyright @Marin Maksutaj</p></footer>
     </div>
+    <script type="text/javascript" src="script.js">
+
+    </script>
   </body>
 </html>

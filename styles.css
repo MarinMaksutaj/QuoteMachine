@@ -13,4 +13,26 @@
   .child {
     padding-top: 150px !important;
   }
+  .parent {
+    padding-top: 60px !important;
+  }
+}
+.foot {
+  width: 100%;
+  padding-top: 5px;
+  background-color: #e3f2fd;
+  margin: 0 auto;
+}
+.body {
+  background-color: #7986cb ;
+}
+.dark-theme {
+  background-color: #222 !important;
+  border-color: #080808 !important;
+  color: color: #fff;;
+  text-decoration: none !important;
+}
+
+aside a {
+  text-decoration: none !important;
 }
