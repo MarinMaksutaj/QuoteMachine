@@ -1,0 +1,16 @@
+.test {
+  margin: 0 auto;
+}
+
+@media (min-width:413px) {
+  .child {
+    padding-top: 100px !important;
+  }
+}
+
+
+@media (min-width:880px)  {
+  .child {
+    padding-top: 150px !important;
+  }
+}

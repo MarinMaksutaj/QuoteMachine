@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.css">
+    <script type="text/javascript" src ="node_modules\jquery\dist\jquery.js">
+    </script>
+    <script type="text/javascript" src="node_modules\bootstrap\dist\js\bootstrap.js">
+
+    </script>
+    <title>Quote Machine</title>
+  </head>
+  <body>
+    <div class="container parent">
+      <div class="navbar navbar-default">
+        <ul class="navbar-nav navbar-left nav">
+          <li><a href="#">Dark Mode</a></li>
+          <li><a href="#">Light Mode</a></li>
+        </ul>
+      </div>
+      <div class="row child">
+      <div class="col-lg-4">
+        <aside class="panel-group" id="accordion">
+          <div class="panel panel-default">
+   <div class="panel-heading">
+     <h4 class="panel-title">
+       <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+       Collapsible Group 1</a>
+     </h4>
+   </div>
+   <div id="collapse1" class="panel-collapse collapse">
+     <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+     minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+     commodo consequat.</div>
+   </div>
+ </div>
+ <div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+Collapsible Group 1</a>
+</h4>
+</div>
+<div id="collapse2" class="panel-collapse collapse in">
+<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat.</div>
+</div>
+</div>
+        </aside>
+      </div>
+      <div class="col-lg-8">
+        <h1 class="text-primary text-center">
+          Random Quote Generator
+        </h1>
+        <p class="text-center">Random Quote Generator is a simple web application that will help
+        you find very interesting quotes from famous people in the world</p>
+
+        <div class="text-center">
+          <div class="btn-group">
+          <a href="#" class="btn btn-default">Previous</a>
+          <a href="#" class="btn btn-default">Next</a>
+        </div>
+        </div>
+        <br>
+        <div class="alert alert-success">
+          <p class="text-center">THere goes your quote</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

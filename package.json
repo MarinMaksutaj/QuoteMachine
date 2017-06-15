@@ -1,0 +1,11 @@
+{
+  "name": "marinmaksutaj",
+  "version": "1.0.0",
+  "description": "quote generation machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marin Maksutaj",
+  "license": "ISC"
+}
